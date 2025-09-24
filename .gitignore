@@ -1,1 +1,47 @@
-.exe
+# CMake build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/install_manifest.txt
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Static and dynamic libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Generated files
+*.log
+
+# Editor/OS files
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# CLion
+.idea/
+
+# Test output
+/test_output/
